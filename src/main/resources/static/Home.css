@@ -1,11 +1,36 @@
-/*
-#sidescroll{
-    background-color: green;
-    width: 100%;
-    height: 900px;
-    font-size: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-<marquee behavior="scroll" direction="left">Here is some scrolling text... right to left!</marquee>
-}*/
+.parent {
+    /*margin: 1rem;*/
+    /*padding: 2rem 2rem;*/
+    text-align: center;
+}
+.child {
+    display: inline-block;
+/*    padding: 1rem 1rem;
+    vertical-align: middle;*/
+}
+#olson{
+    animation: moveRight 5s linear backwards;
+    animation-delay: 2s;
+}
+#james{
+    animation: moveLeft 5s linear forwards;
+    animation-delay: 2s;
+}
+
+@keyframes moveLeft {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
