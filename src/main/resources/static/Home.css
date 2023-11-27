@@ -8,7 +8,7 @@
     animation-delay: 2s;
     text-align: center;
     right: -32%;
-    position: relative;
+    position: absolute;
     font-family: Didot, serif;
     letter-spacing: -4px;
 }
@@ -18,10 +18,24 @@
     animation: moveLeft 3s linear forwards;
     animation-delay: 2s;
     text-align: center;
-    position: relative;
+    position: absolute;
     left: 15%;
     font-family: Didot, serif;
     letter-spacing: -4px;
+}
+
+/*#namecon{
+    padding-top: 41%;
+    width: 100%;
+}*/
+
+#curtain{
+    position: fixed;
+    background-color: green;
+    opacity: 1;
+    animation: fade 3s linear;
+    height:100%;
+    width:100%;
 }
 
 @keyframes moveLeft {
@@ -42,11 +56,7 @@
     }
 }
 
-#namecon{
-    padding-top: 41%;
-    width: 100%;
-}
-
-#opaqe{
-    background-color: green;
+@keyframes fade {
+    100% { opacity: 1 }
+    0% { opacity: 0 }
 }
