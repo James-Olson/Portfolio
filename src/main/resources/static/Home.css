@@ -3,21 +3,25 @@
 }
 
 #olson{
-    font-size: 240px;
+    font-size: 260px;
     animation: moveRight 3s linear backwards;
     animation-delay: 2s;
     text-align: center;
     right: -32%;
     position: relative;
+    font-family: Didot, serif;
+    letter-spacing: -4px;
 }
 
 #james{
-    font-size: 240px;
+    font-size: 260px;
     animation: moveLeft 3s linear forwards;
     animation-delay: 2s;
     text-align: center;
     position: relative;
     left: 15%;
+    font-family: Didot, serif;
+    letter-spacing: -4px;
 }
 
 @keyframes moveLeft {
@@ -39,7 +43,7 @@
 }
 
 #namecon{
-    padding-top: 40%;
+    padding-top: 41%;
     width: 100%;
 }
 
