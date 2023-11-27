@@ -3,21 +3,21 @@
 }
 
 #olson{
-    font-size: 200px;
-    animation: moveRight 5s linear backwards;
+    font-size: 240px;
+    animation: moveRight 3s linear backwards;
     animation-delay: 2s;
     text-align: center;
-    right: -10%;
+    right: -32%;
     position: relative;
 }
 
 #james{
-    font-size: 200px;
-    animation: moveLeft 5s linear forwards;
+    font-size: 240px;
+    animation: moveLeft 3s linear forwards;
     animation-delay: 2s;
     text-align: center;
     position: relative;
-    left: 40%;
+    left: 15%;
 }
 
 @keyframes moveLeft {
@@ -25,13 +25,13 @@
         transform: translateX(0%);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-44%);
     }
 }
 
 @keyframes moveRight {
     0% {
-        transform: translateX(-100%);
+        transform: translateX(-52%);
     }
     100% {
         transform: translateX(0%);
@@ -42,3 +42,7 @@
     padding-top: 40%;
     width: 100%;
 }
+
+
+
+/*font-family: Neue Montreal;*/
