@@ -31,6 +31,7 @@
     animation: fade 3s linear;
     height:100%;
     width:100%;
+
 }
 
 @keyframes moveLeft {
@@ -53,6 +54,7 @@
 
 @keyframes fade {
     0% { opacity: 1; background-color:green;}
-    50% { opacity: 1;}
+/*    50% { opacity: 1;}
+    75% { opacity: 1;}*/
     100% { opacity: 0; background-color:white;}
 }
