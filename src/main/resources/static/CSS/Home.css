@@ -4,7 +4,7 @@
 }
 
 #olson{
-    font-size: 260px;
+    font-size: 280px;
     animation: moveRight 3s linear backwards;
     animation-delay: .5s;
     text-align: center;
@@ -15,7 +15,7 @@
 }
 
 #james{
-    font-size: 260px;
+    font-size: 280px;
     animation: moveLeft 3s linear forwards;
     animation-delay: .5s;
     text-align: center;
