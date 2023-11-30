@@ -1,6 +1,5 @@
 <!doctype html>
 <html xmlns:th="http://www.thymeleaf.org"></html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,9 +13,9 @@
 <body>
 
 
-
-<video id="sky" width="970" height="360">
-    <source src="/static/img/movie1.mp4" type="video/mp4">
+<video id="covermovie" width="970" height="360" loop autoplay controls>
+    <source th:src="@{/static/img/Self Care.mp4}" type="video/mp4">
+    Your browser does not support the video tag.
 </video>
 
 
